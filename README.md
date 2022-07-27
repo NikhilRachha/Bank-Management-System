@@ -6,12 +6,6 @@ Packages required
 2. OS - The OS module in Python provides functions for interacting with the operating system.
 3. datetime - Datetime module supplies classes to work with date and time.
 
-Usage
-import os
-from datetime import date
-import tkinter as tk 
-from tkinter import *
-
 Features of program
 This is a GUI-based program. Once started running, it will prompt users to ask whose role they want to play. According to the selection, the program will ask for credentials. Once the credentials are matched, the program will unlock the respective functions
 1) Employee
@@ -56,10 +50,10 @@ functionalities. If they don’t match or entered admin ID doesn't exist then ap
                  6. Exit
                     - Takes back to admin login screen
 2) Customer            
->> Customer account number and PIN should be entered
-> If account no. and PIN matches then customer will unlock his/her
+ Customer account number and PIN should be entered
+ If account no. and PIN matches then customer will unlock his/her
 functionalities. If they don’t match or entered account number doesn't exist then appropriate error prompts are displayed.
-> Functionalities:
+ Functionalities:
                  1. Deposit
                     greater than 25000
                     and balance is updated with the new amount.
