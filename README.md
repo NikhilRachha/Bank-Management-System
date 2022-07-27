@@ -15,10 +15,10 @@ from tkinter import *
 Features of program
 This is a GUI-based program. Once started running, it will prompt users to ask whose role they want to play. According to the selection, the program will ask for credentials. Once the credentials are matched, the program will unlock the respective functions
 1) Employee
->> Admin Id and password
+ Admin Id and password
 If id and password match then banker will unlock his/her
 functionalities. If they don’t match or entered admin ID doesn't exist then appropriate error prompts are displayed.
-> Functionalities:
+ Functionalities:
                  1. Create bank account
                     - Account type
                     - Name
